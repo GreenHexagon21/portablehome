@@ -1,1 +1,1 @@
-{"portable":{"$func":["ticker","main","init","load_north","load_west","load_east","load_south"]}}
+{"portable":{"util":{"$func":["after_save","after_load","after_save"]},"$func":["ticker","reset","main","init"],"save":{"$func":["save_west","save_south","save_north","save_east"]},"load":{"$func":["load_west","load_south","load_north","load_east"]}}}
