@@ -3,4 +3,4 @@ setblock ~ ~1 ~5 redstone_block replace
 fill ~ ~ ~5 ~ ~1 ~5 air replace
 setblock ~1 ~ ~4 structure_block{name:"base",posX:0,posY:-1,posZ:0,rotation:"COUNTERCLOCKWISE_90",mirror:"NONE",mode:"LOAD"} replace
 setblock ~1 ~1 ~4 redstone_block replace
-function portable:north/util/after_load
+function portable:east/util/after_load
