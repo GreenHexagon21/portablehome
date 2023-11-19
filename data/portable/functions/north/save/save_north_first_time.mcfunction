@@ -8,5 +8,5 @@ fill -32 57 16 -32 56 16 bedrock replace
 #forceload remove
 setblock ~-4 ~ ~1 structure_block{name:"portable:empty_north",posX:0,posY:-1,posZ:0,rotation:"NONE",mirror:"NONE",mode:"LOAD"} replace
 setblock ~-4 ~1 ~1 redstone_block replace
-#fill ~-4 ~ ~1 ~-4 ~1 ~1 air replace
+fill ~-4 ~ ~1 ~-4 ~1 ~1 air replace
 function portable:north/util/after_save_first
