@@ -2,9 +2,9 @@ setblock ~ ~ ~5 structure_block[mode=save]{name:"portable:base",posX:1,posY:-1,p
 setblock ~ ~1 ~5 redstone_block replace
 fill ~ ~ ~5 ~ ~1 ~5 air replace
 
-function portable:9x10/east-west_util/save_to_world
+function portable:9x11/east-west_util/save_to_world
 
 setblock ~1 ~ ~4 structure_block{name:"portable:restore",posX:0,posY:-1,posZ:-8,rotation:"NONE",mirror:"NONE",mode:"LOAD"} replace
 setblock ~1 ~1 ~4 redstone_block replace
 fill ~1 ~ ~4 ~1 ~1 ~4 air replace
-function portable:9x10/west/util/after_save
+function portable:9x11/west/util/after_save
