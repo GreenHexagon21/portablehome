@@ -1,4 +1,2 @@
-function portable:9x10/north/checks
-function portable:9x10/east/checks
-function portable:9x10/south/checks
-function portable:9x10/west/checks
+function portable:9x10/all_checks
+function portable:5x5/all_checks
