@@ -4,7 +4,7 @@ fill ~-3 ~ ~ ~-3 ~1 ~ air replace
 
 function portable:5x7/north-south_util/load_from_world
 
-setblock ~-2 ~ ~1 structure_block{name:"portable:base",posX:4,posY:-1,posZ:5,rotation:"CLOCKWISE_180",mirror:"NONE",mode:"LOAD"} replace
+setblock ~-2 ~ ~1 structure_block{name:"portable:base",posX:4,posY:-1,posZ:6,rotation:"CLOCKWISE_180",mirror:"NONE",mode:"LOAD"} replace
 setblock ~-2 ~1 ~1 redstone_block replace
 
 clear @p minecraft:player_head{display:{Name:'{"text":"Portable Base (S) (Packed) (5x7)","color":"gold","bold":true}'},SkullOwner:{Id:[I;891982802,1654277952,-1266198704,-1544975137],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjNkMDJjZGMwNzViYjFjYzVmNmZlM2M3NzExYWU0OTc3ZTM4YjkxMGQ1MGVkNjAyM2RmNzM5MTNlNWU3ZmNmZiJ9fX0="}]}}} 1
