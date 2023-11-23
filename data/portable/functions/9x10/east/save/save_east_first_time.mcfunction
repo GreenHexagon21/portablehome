@@ -3,7 +3,7 @@ setblock ~ ~1 ~-5 redstone_block replace
 fill ~ ~ ~-5 ~ ~1 ~-5 air replace
 
 forceload add 100000 100000
-setblock 100000 -59 100000 structure_block{name:"portable:base",posX:1,posY:0,posZ:1,rotation:"NONE",mirror:"NONE",mode:"LOAD"} replace
+setblock 100000 -59 100000 structure_block{name:"portable:base",posX:1,posY:0,posZ:9,rotation:"COUNTERCLOCKWISE_90",mirror:"NONE",mode:"LOAD"} replace
 setblock 100000 -60 100000 redstone_block replace
 fill 100000 -59 100000 100000 -60 100000 bedrock replace
 forceload remove 100000 100000
