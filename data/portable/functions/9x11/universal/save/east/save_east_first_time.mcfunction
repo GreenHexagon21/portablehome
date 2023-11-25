@@ -1,4 +1,4 @@
-setblock ~ ~ ~-5 structure_block[mode=save]{name:"portable:base",posX:-11,posY:-1,posZ:1,sizeX:11,sizeY:11,sizeZ:9,rotation:"NONE",mirror:"NONE",mode:"SAVE",ignoreEntities:1b} replace
+setblock ~ ~ ~-5 structure_block[mode=save]{name:"portable:base",posX:-11,posY:-1,posZ:1,sizeX:11,sizeY:9,sizeZ:9,rotation:"NONE",mirror:"NONE",mode:"SAVE",ignoreEntities:1b} replace
 setblock ~ ~1 ~-5 redstone_block replace
 fill ~ ~ ~-5 ~ ~1 ~-5 air replace
 
