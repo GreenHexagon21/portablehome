@@ -1,0 +1,48 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "projection": "rigid",
+          "location": "minecraft:village/plains/villagers/nitwit",
+          "processors": {
+            "processors": []
+          }
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "projection": "rigid",
+          "location": "minecraft:village/plains/villagers/baby",
+          "processors": {
+            "processors": []
+          }
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "projection": "rigid",
+          "location": "minecraft:village/plains/villagers/unemployed",
+          "processors": {
+            "processors": []
+          }
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "minecraft:village/plains/villagers/engineer_plains",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  
