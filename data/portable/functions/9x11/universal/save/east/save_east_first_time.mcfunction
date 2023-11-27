@@ -6,6 +6,8 @@ forceload add 100000 100000
 setblock 100000 -59 100000 structure_block{name:"portable:base",posX:1,posY:0,posZ:11,rotation:"COUNTERCLOCKWISE_90",mirror:"NONE",mode:"LOAD"} replace
 setblock 100000 -60 100000 redstone_block replace
 fill 100000 -59 100000 100000 -60 100000 bedrock replace
+
+kill @e[type=item,x=100000,y=-55,z=100016,distance=0..32,nbt={Item:{}}]
 forceload remove 100000 100000
 
 setblock ~-1 ~ ~-4 structure_block{name:"portable:9x11_empty_east",posX:-10,posY:-1,posZ:0,rotation:"NONE",mirror:"NONE",mode:"LOAD"} replace

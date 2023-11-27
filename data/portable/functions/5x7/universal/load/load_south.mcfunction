@@ -13,6 +13,8 @@ setblock 100000 -59 100000 structure_block[mode=save]{name:"portable:base",posX:
 setblock 100000 -60 100000 redstone_block replace
 fill 100000 -59 100000 100000 -60 100000 bedrock replace
 
+kill @e[type=item,x=100000,y=-55,z=100016,distance=0..32,nbt={Item:{}}]
+
 forceload remove 100000 100000
 forceload remove 100000 100016
 
