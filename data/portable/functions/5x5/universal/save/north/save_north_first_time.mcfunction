@@ -16,4 +16,6 @@ fill ~-2 ~ ~1 ~-2 ~1 ~1 air replace
 
 kill @e[type=item,distance=0..10,nbt={Item:{}}]
 
+function portable:5x5/universal/save/north/effects
+
 function portable:5x5/universal/util/after_save_first
