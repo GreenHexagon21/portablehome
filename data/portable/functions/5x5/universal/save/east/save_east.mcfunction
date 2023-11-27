@@ -18,4 +18,6 @@ setblock ~-1 ~ ~-2 structure_block{name:"portable:restore",posX:0,posY:-1,posZ:0
 setblock ~-1 ~1 ~-2 redstone_block replace
 fill ~-1 ~ ~-2 ~-1 ~1 ~-2 air replace
 
+kill @e[type=item,distance=0..10,nbt={Item:{}}]
+
 function portable:5x5/universal/util/after_save

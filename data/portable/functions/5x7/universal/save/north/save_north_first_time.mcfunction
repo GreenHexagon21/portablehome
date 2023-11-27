@@ -11,4 +11,7 @@ forceload remove 100000 100000
 setblock ~-2 ~ ~1 structure_block{name:"portable:5x7_empty_north",posX:0,posY:-1,posZ:0,rotation:"NONE",mirror:"NONE",mode:"LOAD"} replace
 setblock ~-2 ~1 ~1 redstone_block replace
 fill ~-2 ~ ~1 ~-2 ~1 ~1 air replace
+
+kill @e[type=item,distance=0..10,nbt={Item:{}}]
+
 function portable:5x7/universal/util/after_save_first

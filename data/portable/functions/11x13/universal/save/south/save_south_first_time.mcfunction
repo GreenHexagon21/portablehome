@@ -12,4 +12,6 @@ setblock ~5 ~ ~-1 structure_block{name:"portable:11x13_empty_north",posX:0,posY:
 setblock ~5 ~1 ~-1 redstone_block replace
 fill ~5 ~ ~-1 ~5 ~1 ~-1 air replace
 
+kill @e[type=item,distance=0..18,nbt={Item:{}}]
+
 function portable:11x13/universal/util/after_save_first
