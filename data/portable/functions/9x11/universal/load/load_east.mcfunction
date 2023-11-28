@@ -19,4 +19,6 @@ forceload remove 100000 100016
 setblock ~-1 ~ ~-4 structure_block{name:"portable:base",posX:0,posY:-1,posZ:0,rotation:"CLOCKWISE_90",mirror:"NONE",mode:"LOAD"} replace
 setblock ~-1 ~1 ~-4 redstone_block replace
 
+function portable:9x11/universal/save/east/effects
+
 function portable:9x11/universal/util/after_load
